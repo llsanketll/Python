@@ -9,11 +9,11 @@ wn.title("Pong Game")
 
 #Pong Paddle 1
 paddle_1 = turtle.Turtle()
-paddle_1.shape("Square")
+paddle_1.shape("square")
 paddle_1.color("white")
 paddle_1.penup()
 paddle_1.speed(0)
-paddle_1.goto(550, 300)
+paddle_1.goto(0, 0)
 
 #Windows Update
 while True:
